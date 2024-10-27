@@ -1,5 +1,5 @@
 ---
-layout: defaultMaerchen
+layout: default
 title: Märchen
 description: This is just another page
 ---
