@@ -112,6 +112,9 @@ a {
   text-align: center;
   background-color: $header-bg-color;
   background-image: url(https://farbendersavanne.github.io/img/slide1.jpg);
+  // Adjust height to ensure the full image is visible
+  height: 100vh;  // Set height to full viewport height (adjust as needed)
+  min-height: 500px;  // Minimum height to ensure visibility
 
   @include large {
     padding: 5rem 6rem;
