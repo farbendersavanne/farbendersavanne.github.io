@@ -1,7 +1,7 @@
 ---
 layout: defaultMaerchen
 title: Märchen
-description: This is just another page
+description: 
 ---
 
 ## Märchen
