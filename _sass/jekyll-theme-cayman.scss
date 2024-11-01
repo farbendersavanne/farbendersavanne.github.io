@@ -191,6 +191,31 @@ a {
 
 .main-content {
   word-wrap: break-word;
+  background-color: #FFD3A7;
+
+  :first-child {
+    margin-top: 0;
+  }
+
+  @include large {
+    max-width: 64rem;
+    padding: 2rem 6rem;
+    margin: 0 auto;
+    font-size: 1.1rem;
+  }
+
+  @include medium {
+    padding: 2rem 4rem;
+    font-size: 1.1rem;
+  }
+
+  @include small {
+    padding: 2rem 1rem;
+    font-size: 1rem;
+  }
+
+  .main-content_maerchen {
+  word-wrap: break-word;
   background-color: #FFDFFB;
 
   :first-child {
