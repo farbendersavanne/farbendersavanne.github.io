@@ -113,10 +113,11 @@ a {
   background-color: $header-bg-color;
   background-image: url(https://farbendersavanne.github.io/img/slide1.jpg);
   // Adjust height to ensure the full image is visible
-  height: 100vh;  // Set height to full viewport height (adjust as needed)
-  min-height: 500px;  // Minimum height to ensure visibility
-  width: 100vw;
-  min-widht: 1200px;
+  width: 100vw; /* Full viewport width */
+  height: 100vh; 
+  display: flex; /* Use flexbox for centering content */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
 
   @include large {
     padding: 5rem 6rem;
