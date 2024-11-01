@@ -432,3 +432,23 @@ a {
 .site-footer-credits {
   color: $blockquote-text-color;
 }
+
+.tabs-container {
+    display: flex;
+    background-color: #f8f8f8; /* Background color for the tabs */
+    padding: 1rem; /* Space around the tabs */
+    border-bottom: 1px solid #ccc; /* Optional border for separation */
+}
+
+.tab {
+    margin-right: 1rem; /* Space between tabs */
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Tab text color */
+    padding: 0.5rem 1rem; /* Padding for clickable area */
+    border-radius: 4px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth background transition */
+}
+
+.tab:hover {
+    background-color: #e0e0e0; /* Change background on hover */
+}
