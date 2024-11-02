@@ -113,11 +113,10 @@ a {
   background-color: $header-bg-color;
   background-image: url(https://farbendersavanne.github.io/img/slide1.jpg);
   // Adjust height to ensure the full image is visible
-  width: 100vw; /* Full viewport width */
-  height: 100vh; 
-  display: flex; /* Use flexbox for centering content */
-  align-items: center; /* Center vertically */
-  justify-content: center; /* Center horizontally */
+  height: 100vh;  // Set height to full viewport height (adjust as needed)
+  min-height: 500px;  // Minimum height to ensure visibility
+  width: 100vw;
+  min-widht: 1200px;
 
   @include large {
     padding: 5rem 6rem;
@@ -191,31 +190,6 @@ a {
 }
 
 .main-content {
-  word-wrap: break-word;
-  background-color: #FFD3A7;
-
-  :first-child {
-    margin-top: 0;
-  }
-
-  @include large {
-    max-width: 64rem;
-    padding: 2rem 6rem;
-    margin: 0 auto;
-    font-size: 1.1rem;
-  }
-
-  @include medium {
-    padding: 2rem 4rem;
-    font-size: 1.1rem;
-  }
-
-  @include small {
-    padding: 2rem 1rem;
-    font-size: 1rem;
-  }
-
-  .main-content_maerchen {
   word-wrap: break-word;
   background-color: #FFDFFB;
 
@@ -432,24 +406,4 @@ a {
 
 .site-footer-credits {
   color: $blockquote-text-color;
-}
-
-.tabs-container {
-    display: flex;
-    background-color: #f8f8f8; /* Background color for the tabs */
-    padding: 1rem; /* Space around the tabs */
-    border-bottom: 1px solid #ccc; /* Optional border for separation */
-}
-
-.tab {
-    margin-right: 1rem; /* Space between tabs */
-    text-decoration: none; /* Remove underline */
-    color: #333; /* Tab text color */
-    padding: 0.5rem 1rem; /* Padding for clickable area */
-    border-radius: 4px; /* Rounded corners */
-    transition: background-color 0.3s; /* Smooth background transition */
-}
-
-.tab:hover {
-    background-color: #e0e0e0; /* Change background on hover */
 }
