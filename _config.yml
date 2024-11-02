@@ -1,9 +1,9 @@
 description: 
     <div class="tabs-container">
-        <a href="./lesungen.html" class="tab">Lesungen</a>
-        <a href="./maerchen.html" class="tab">Märchen</a>
-        <a href="./trommeln.html" class="tab">Trommelworkshop</a>
-        <a href="./about.html" class="tab">Kontakt</a>
+        <a href="./lesungen.html" class="btn">Lesungen</a>
+        <a href="./maerchen.html" class="btn">Märchen</a>
+        <a href="./trommeln.html" class="btn">Trommelworkshop</a>
+        <a href="./about.html" class="btn">Kontakt</a>
     </div>
 
 # remote_theme: pages-themes/cayman@v0.2.0
