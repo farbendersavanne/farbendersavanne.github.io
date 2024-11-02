@@ -115,7 +115,7 @@ a {
   // Adjust height to ensure the full image is visible
   height: 100vh;  // Set height to full viewport height (adjust as needed)
   min-height: 500px;  // Minimum height to ensure visibility
-  width: 80%;
+  width: 100%;
   min-widht: 700px;
 
   @include large {
