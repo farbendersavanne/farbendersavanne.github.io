@@ -1,5 +1,5 @@
 description: 
-    <div class="tabs-container">
+    <div class="button-container">
         <a href="./lesungen.html" class="btn">Lesungen</a>
         <a href="./maerchen.html" class="btn">Märchen</a>
         <a href="./trommeln.html" class="btn">Trommelworkshop</a>
